@@ -130,7 +130,7 @@ def check_password():
     
     if not st.session_state.password_correct:
         st.title("🔐 Excel Dönüştürücü")
-        st.markdown('<div class="info-box"><b>Şifre:</b> idepim65</div>', unsafe_allow_html=True)
+        st.markdown('<div class="info-box"><b>Giriş yapmak için şifre gerekli</b></div>', unsafe_allow_html=True)
         
         password = st.text_input("Şifreyi giriniz:", type="password", key="password_input")
         
